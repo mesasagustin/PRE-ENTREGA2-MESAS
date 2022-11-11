@@ -94,8 +94,12 @@ h2{
     color: white;
     font-size: 4rem;
     background-color: rgba(0, 0, 0, 0.473);
-    margin-top: 5%;
+    margin-top: 3%;
     
+}
+
+.h2__mod{
+    margin-top: 3%;
 }
 
 h3{
@@ -110,6 +114,12 @@ h3{
 .div__video{
     display: flex;
     justify-content: center;
+    margin-top: 3%;
+}
+
+.carousel__main{
+    width: 60%;
+    margin-left: 20%;
     margin-top: 3%;
 }
 
@@ -168,7 +178,7 @@ transition: 0.3s;
 /*TOUR*/
 
 .tour__table{
-    margin: 150px auto;
+    margin: 140px auto;
     width: 600PX;
     font-size: large;
 }
@@ -209,6 +219,7 @@ tr:hover td{
 
 .biography__Parrafo{
     background-color: rgba(0, 0, 0, 0.473);
+    font-weight: bolder;
     font-size: 2rem;
     color: white;
     margin: 7rem;
@@ -341,10 +352,15 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50%;
+    margin-top: 20%;
     overflow: hidden;
 }
 
+.h2__mod{
+    margin-top: 3%;
+    background-color: white;
+    color: black;
+}
 /*Discography Mobile*/
 
 .albums{
@@ -359,6 +375,17 @@ body{
     margin-top: 5%;
     margin-left: 25%;
     width: 50%;
+}
+.carousel__main{
+    display: none;
+}
+
+/*Tour Mobile*/
+.tour__table{
+    display: flex;
+    width: 60%;
+    height: 50%;
+    
 }
 }
 
