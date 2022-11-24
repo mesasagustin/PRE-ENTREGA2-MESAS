@@ -1,0 +1,23 @@
+.albums{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.albums__title{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+    gap: 20rem;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.albums__playlist{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}

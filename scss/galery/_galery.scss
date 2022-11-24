@@ -1,0 +1,19 @@
+.galery__article img:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    }
+    .galery__article{
+        display: flex;
+        align-items: end;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    
+    
+    .galery__article img{
+        width: 40%;
+    }
+    

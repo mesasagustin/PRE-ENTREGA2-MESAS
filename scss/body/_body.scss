@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+body{
+    background-image: url(../img/background/Fondo.jpg);
+    background-position:center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+

@@ -1,0 +1,33 @@
+.tour__table{
+    margin: 140px auto;
+    width: 600PX;
+    font-size: large;
+}
+
+table{
+    width: 130%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+thead{
+    background-color: grey;
+    border-bottom: solid 5px black;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: white;
+    color: orangered;
+}
